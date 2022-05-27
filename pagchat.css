@@ -1,0 +1,33 @@
+body {
+	padding-top: 5vh;
+	background-image: url('fundo.png');
+	background-size: center;
+	background-position-y: center;
+
+}
+
+.boxmsg {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 200px;
+}
+
+#inputmsg {
+	width: 90px;
+	padding: 40px;
+}
+
+.chat-screen .typebox {
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+.chat-screen .typebox input {
+	flex: 1;
+	height: 50px;
+	font-size: 18px;
+}
